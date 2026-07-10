@@ -452,5 +452,9 @@ learned here, dropped into the block design as your own IP.
   flash**. Zynq parts add ARM cores (PS) beside the fabric (PL) — your
   physics logic is the PL, written exactly as in this course.
 
-**Next:** [Capstone project](../../project/) — a self-triggering waveform
-digitizer readout that integrates every module, this one included.
+**Next:** the short lab-topics lessons — [Module 10 — Latches](../10_latches/),
+[Module 11 — Counters in practice](../11_counters_in_practice/),
+[Module 12 — ILA and VIO](../12_ila_vio_debugging/), and
+[Module 13 — Serial links, PRBS, and eye diagrams](../13_serial_links_prbs_eyes/) —
+or go straight to the [Capstone project](../../project/), a self-triggering
+waveform digitizer readout that integrates every module, this one included.

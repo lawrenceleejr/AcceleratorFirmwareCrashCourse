@@ -51,9 +51,16 @@ this:
 | 07 | [Memories and FIFOs](modules/07_memories_and_fifos/) | Inferring block RAM, ring buffers, FIFO discipline | Circular waveform-capture buffer for an ADC |
 | 08 | [Clock domains and CDC](modules/08_clock_domains_cdc/) | Metastability, synchronizers, safe domain crossing | Asynchronous trigger input meets the DAQ clock |
 | 09 | [The Vivado / Xilinx flow](modules/09_vivado_xilinx_flow/) | Synthesis, XDC constraints, timing closure, IP, ILA | Putting a design on a real board |
+| 10 | [Latches](modules/10_latches/) | Level-sensitive storage, latch vs flip-flop, the inferred-latch bug | Why a glitchy gated veto misbehaves |
+| 11 | [Counters in practice](modules/11_counters_in_practice/) | Wrapping vs saturating counters, prescalers, gray codes | Trigger prescaling and error scalers |
+| 12 | [ILA and VIO debugging](modules/12_ila_vio_debugging/) | In-fabric logic analyzers, virtual I/O, hardware bring-up | Debugging a trigger path in a closed crate |
+| 13 | [Serial links, PRBS, and eye diagrams](modules/13_serial_links_prbs_eyes/) | SFP modules, gigabit transceivers, IBERT/BER testing, eye scans | Getting detector data to the counting room |
 | — | [**Capstone project**](project/) | Integrating all of it | A self-triggering waveform digitizer readout |
 
-Do them in order — each one leans on the previous.
+Modules 00–09 are the core sequence — do them in order. Modules 10–13 are
+short standalone lessons on topics you'll meet in any real DAQ lab; take them
+any time after the core module they build on (10 after 03, 11 after 03/08,
+12–13 after 09).
 
 ## Quick start
 
