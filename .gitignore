@@ -1,0 +1,17 @@
+# GHDL work libraries and build artifacts
+*.cf
+*.o
+work-obj*.cf
+
+# Waveform dumps
+*.ghw
+*.vcd
+*.fst
+
+# Vivado build outputs (module 09 / capstone)
+build/
+*.jou
+*.log
+.Xil/
+*.bit
+*.dcp
